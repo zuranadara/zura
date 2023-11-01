@@ -1,0 +1,129 @@
+.grid-container {
+    display: grid;
+    gap: 5px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    font-family: 'Playpen Sans', cursive;
+    
+  }
+
+  .font-style{
+  font-family: 'Playpen Sans', cursive;
+
+  }
+  
+  .grid-item {
+      border: 3px solid red;
+      padding: 10px;
+  
+  }
+  
+  .grid-item-1 {
+      grid-column-start: 2;
+      grid-column-end:4 ;
+      padding: 10px;
+      background-color: aqua;
+      border: 2px solid black;
+  }
+  
+  
+  .grid-item-2 {
+      grid-column-start: 4;
+      grid-column-end: 5;
+      grid-row-start:4;
+      grid-row-end: 5;
+      padding: 10px;
+      border: 2px solid black;
+      background-color: aqua;
+  
+  }
+  
+  .grid-item-3{
+      grid-column-start:4 ;
+      grid-column-end:6 ;
+      grid-row-start:1;
+      padding: 10px;
+      background-color: wheat;
+      border: 2px solid black;
+      
+  }
+  
+  .grid-item-4{
+      grid-row-start:3;
+      grid-row-end: 5;
+      padding: 10px;
+      border: 2px solid black;
+      background-color: gray;
+     
+  }
+  
+  .grid-item-5 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 20px;
+    background-color: red;
+    border: 2px solid black;
+    
+  }
+
+  .grid-item-6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:4 ;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: wheat;
+   
+    
+  }
+
+  .grid-item-7 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start:2;
+    grid-row-end: 5;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: red;
+    
+    
+
+  }
+
+  .grid-item-8 {
+    grid-column-start: 3;
+    grid-column-end:5 ;
+    grid-row-start:2;
+    grid-row-end:4 ;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: gray
+  }
+
+  .grid-item-9 {
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    grid-row-start:4;
+    grid-row-end: 5;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: red;
+    
+  }
+  
+  .font-open-sens{
+      font-family:  'Open Sans', sans-serif;
+  
+  } 
+
+
+  .styled-button {
+      width:200px;
+      height: 60px;
+      background-color:rgb(49, 160, 235);
+      border-radius: 15px;
+      border: none;
+      
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
